@@ -24,6 +24,11 @@ body {
 }
 
 h1 {
+    font-weight: bold;
+}
+
+h1,
+h2 {
     text-transform: uppercase;
 }
 
@@ -33,4 +38,9 @@ h3,
 h4 {
     font-family: 'Montserrat', sans-serif;
     color: coral;
+}
+
+.box-grid {
+    column-count: 4;
+    display: flex;
 }
