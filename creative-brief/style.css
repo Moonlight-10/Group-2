@@ -39,3 +39,8 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     color: coral;
 }
+
+.box-grid {
+    column-count: 4;
+    display: flex;
+}
