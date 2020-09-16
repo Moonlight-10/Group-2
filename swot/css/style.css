@@ -18,6 +18,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header,
+footer {
+    min-height: 50px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px;
+    margin: 22px 0;
+}
+
+footer a {
+    color: white;
+}
+
+.header-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5 em;
+}
+
 body {
     margin: 80px;
 }
@@ -44,7 +65,7 @@ h4 {
 }
 
 table {
-    overflow: auto;
+    overflow: hidden;
     width: 100%;
     margin: auto;
     border-collapse: collapse;
