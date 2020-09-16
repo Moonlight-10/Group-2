@@ -16,7 +16,6 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    color: #424242;
 }
 
 body {
@@ -25,6 +24,10 @@ body {
 
 h1 {
     font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
 }
 
 h1,
@@ -38,4 +41,37 @@ h3,
 h4 {
     font-family: 'Montserrat', sans-serif;
     color: coral;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #7e2806;
+    text-align: left;
+    padding: 15px;
+}
+
+.full-row {
+    vertical-align: top;
+    padding: 15px;
+}
+
+.th-pad {
+    padding-left: 12px;
+    text-align: left;
+}
+
+.top-row {
+    height: 50px;
+    background-color: coral;
+    color: white;
+}
+
+td {
+    padding: 22px;
 }
