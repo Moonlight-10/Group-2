@@ -44,6 +44,7 @@ h4 {
 }
 
 table {
+    overflow: auto;
     width: 100%;
     margin: auto;
     border-collapse: collapse;
