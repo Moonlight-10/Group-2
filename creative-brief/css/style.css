@@ -19,6 +19,27 @@
     color: #424242;
 }
 
+header,
+footer {
+    min-height: 50px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px;
+    margin: 22px 0;
+}
+
+footer a {
+    color: white;
+}
+
+.header-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5 em;
+}
+
 body {
     margin: 80px;
 }
