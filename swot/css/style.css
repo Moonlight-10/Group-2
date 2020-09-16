@@ -86,6 +86,7 @@ th {
 .th-pad {
     padding-left: 12px;
     text-align: left;
+    width: 50%;
 }
 
 .top-row {
